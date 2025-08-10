@@ -110,7 +110,7 @@ function sair() {
     let sair = window.confirm("Deseja sair?");
     if (sair) {
         localStorage.removeItem('quizState'); // Limpa o estado ao sair
-        window.location = "../../index.html";
+        window.location = "../index.html";
     }
 }
 
